@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+}
+
+ :root {
+    /* (intro and email sign up background) */
+    --Dark-Blue1: hsl(217, 28%, 15%);
+    /* (main background) */
+    --Dark-Blue2: hsl(218, 28%, 13%);
+    /* (footer background) */
+    --Dark-Blue3: hsl(216, 53%, 9%);
+    /* (testimonials background) */
+    --Dark-Blue4: hsl(219, 30%, 18%);
+    /* (inside call-to-action gradient) */
+    --Cyan: hsl(176, 68%, 64%);
+    /* (inside call-to-action gradient) */
+    --Blue: hsl(198, 60%, 50%);
+    /* (error) */
+    --Light-Red: hsl(0, 100%, 63%);
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    background-color: var(--Dark-Blue2);
+}
+
+a {
+    color: unset;
+    text-decoration: none;
+}
+
+nav {
+    color: rgb(204, 204, 204);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: 20px;
+}
+
+nav .logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.logo img {
+    width: 50%;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+ul a li {
+    display: inline;
+    font-weight: 400;
+}
+
+ul a li:hover {
+    /* font-weight: 700; */
+    color: white;
+}
+
+@media screen and (max-width: 374px) {
+    .logo img {
+        width: 53px;
+    }
+    ul {
+        justify-content: flex-end;
+    }
+    ul a {
+        margin: 0px 10px;
+        font-size: 7px;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    .logo img {
+        width: 60%;
+    }
+    ul {
+        justify-content: flex-end;
+    }
+    ul a {
+        margin: 0px 10px;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    nav {
+        padding: 50px;
+    }
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    color: white;
+}
+
+.attribution a {
+    color: var(--Cyan);
+}
