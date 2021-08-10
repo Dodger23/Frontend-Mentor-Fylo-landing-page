@@ -212,6 +212,12 @@ header .header-container p {
     }
 }
 
+@media screen and (min-width:500px) {
+    header::before {
+        height: 350px;
+    }
+}
+
 @media screen and (min-width:1000px) {
     nav {
         padding: 100px 100px 0px 100px;
@@ -229,7 +235,7 @@ header .header-container p {
     header::before {
         background-image: url('../images/bg-curvy-desktop.svg');
         width: 100%;
-        height: 550px;
+        height: 400px;
         bottom: 0px;
     }
     header::after {
@@ -389,12 +395,12 @@ header .header-container p {
     }
     .works-content h2 {
         width: 66%;
-        font-size: 56px;
+        font-size: 40px;
         margin-bottom: 5px;
     }
     .works-content p {
         margin: 5px 0px;
-        font-size: 21px;
+        font-size: 18px;
         line-height: 39px;
     }
     .works-link img {
@@ -487,7 +493,7 @@ header .header-container p {
         position: relative;
     }
     .testomenials-container {
-        width: 80%;
+        width: 85%;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         column-gap: 4%;
@@ -501,16 +507,16 @@ header .header-container p {
         width: 66px;
         height: 56px;
         top: -55px;
-        left: 9%;
+        left: 7%;
     }
     .card {
         background-color: var(--Dark-Blue4);
         color: white;
-        padding: 50px 30px 20px;
+        padding: 40px 30px 20px;
         border-radius: 6px;
     }
     .card>p {
-        font-size: 18px;
+        font-size: 14px;
         margin-top: 0;
         line-height: 26px;
     }
