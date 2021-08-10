@@ -68,12 +68,12 @@ ul {
     font-family: 'Raleway', sans-serif;
 }
 
-ul a li {
+ul li {
     display: inline;
     font-weight: 400;
 }
 
-ul a li:hover {
+ul li:hover {
     color: white;
 }
 
@@ -229,7 +229,7 @@ header .header-container p {
         font-size: 20px;
     }
     header {
-        padding: 50px 0px 250px;
+        padding: 50px 0px 100px;
         margin-bottom: 100px;
     }
     header::before {
@@ -245,10 +245,10 @@ header .header-container p {
         width: 700px;
     }
     header .header-container {
-        width: 40%;
+        width: 55%;
     }
     header .header-container h1 {
-        font-size: 44px;
+        font-size: 35px;
     }
     header .header-container p {
         font-size: 23px;
@@ -309,18 +309,18 @@ header .header-container p {
         align-items: center;
     }
     .features-container .feature p:first-of-type {
-        font-size: 25px;
+        font-size: 19px;
         margin-top: 50px;
         margin-bottom: 10px;
     }
     .features-container .feature p:last-child {
-        font-size: 20px;
+        font-size: 14px;
         margin-top: 0px;
         line-height: 27px;
         opacity: 0.6;
     }
     .features-container .features-img img {
-        height: 90px;
+        height: 70px;
     }
 }
 
@@ -401,7 +401,7 @@ header .header-container p {
     .works-content p {
         margin: 5px 0px;
         font-size: 18px;
-        line-height: 39px;
+        line-height: 30px;
     }
     .works-link img {
         width: 24px;
@@ -755,7 +755,7 @@ footer {
         display: grid;
         grid-template-areas: "logo logo logo logo logo" "location contact about-us contact-us social";
         grid-template-columns: 40% 15% 15% 15% 15%;
-        column-gap: 50px;
+        column-gap: 25px;
     }
     .footer-logo {
         grid-area: logo;
